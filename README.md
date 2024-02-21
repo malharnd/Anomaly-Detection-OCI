@@ -1,6 +1,6 @@
 # Anomaly Detection Project
 
-OCI AnomalyGuard" uses Oracle Cloud Infrastructure (OCI) to deliver anomaly detection capabilities. Developed using advanced multivariate time-series algorithms from Oracle Labs, it offers tailored machine learning models for real-time and batch anomaly detection.
+This project uses Oracle Cloud Infrastructure (OCI) to deliver anomaly detection capabilities. Developed using a multivariate time-series algorithms from Oracle Labs, it offers tailored machine learning models for real-time and batch anomaly detection.
 
 
 The Oracle Cloud Infrastructure (OCI) Anomaly Detection service offers customized machine learning models by leveraging user-uploaded data. The service utilizes the core algorithm to train models, which are then hosted in the cloud and ready for anomaly detection. Users can interact with the service via public REST APIs, OCI CLI, or the Cloud Console.
@@ -31,11 +31,6 @@ The Oracle Cloud Infrastructure (OCI) Anomaly Detection service offers customize
 
 ## Anomaly Detection
 Anomaly Detection is the process of identifying rare items, events, or observations in data that deviate significantly from the norm. It's commonly used across various industries like utility, aviation, transportation, and manufacturing for tasks such as asset monitoring and prognostic surveillance.
-
-
-### Multivariate Kernel:
-- Utilizes MSET2 algorithm, incorporating techniques like Multivariate State Estimation Technique (MSET) and Sequential Probability Ratio Test (SPRT).
-- Suitable for detecting point, contextual, and collective anomalies in multivariate datasets with highly correlated numerical signals.
 
 ## Key Terms
 - **False Alarm Probability (FAP)**: A measure indicating the likelihood of a timestamp being flagged as an anomaly in the absence of actual anomalies. Lower FAP values imply higher precision but may require longer training times.
