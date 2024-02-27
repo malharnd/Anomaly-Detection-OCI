@@ -70,7 +70,7 @@ Creating a new compartment in the OCI console.
 Creating a new bucket in Oracle Cloud Object Storage.
 
 ### Model Creation
-![Model Creation](images/Model_creation.png)
+![Model Creation](images/Model_Creation.png)
 Configurating settings for anomaly detection model in OCI. (FAP/Train Fraction Ratio)
 
 
